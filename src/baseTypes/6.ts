@@ -11,7 +11,7 @@ function calc(num1: number, num2: number): number {
 }
 
 function customError(): never {
-  throw new Error("Error"); //Така декларація типу показує, що функція customError не повертає жодного значення, оскільки завжди викидає виняток.
+  throw new Error("Error");
 }
 
 export {};
